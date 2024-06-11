@@ -1,0 +1,23 @@
+development:
+ adapter: mysql2
+ database: Railsdb
+ username: myuser
+ password: myuser
+ host: localhost
+ encoding: utf8
+
+test:
+ database: testdb
+ adapter: mysql2
+ encoding: utf8
+ username: myuser
+ password: myuser
+ host: localhost
+
+production:
+ adapter: mysql2
+ database: Railsdb
+ username: myuser
+ password: myuser
+ host: localhost
+ encoding: utf8
